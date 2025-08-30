@@ -1,0 +1,27 @@
+// Import Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Custom Styles (Tema Merah Putih)
+:root {
+    --primary-color: #D90000; // Merah
+    --secondary-color: #FFFFFF;
+    --text-color: #333333;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand, .nav-link.active, h1, h2, h3 {
+    color: var(--primary-color) !important;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
